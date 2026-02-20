@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(-45deg, rgba(2, 0, 36, 1) 1%, rgba(1, 94, 133, 1) 42%, rgba(0, 212, 255, 1) 100%);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+ul{
+   
+    list-style-type: none;
+    padding: 50px;
+    margin-left: 210px;
+    gap: 100px; 
+    display: flex;   
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: 100;
+    
+}
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    transform: scale(1.1);
+    display: inline-block;
+    transition: transform 0.3s ease;
+
+}
+ul li a:hover {
+    
+     background: linear-gradient(to right, #ff0000, rgb(3, 137, 139) ,  #f06);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+      transform: scale(1.1);
+      transform: scale(1.2);
+
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.titer1 {
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #ffffff;
+  animation: typing 4s steps(30, end) forwards, blink 0.7s infinite;
+  margin-left: 100px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 700;   
+  font-size: 50px;
+  color: #ffffff; 
+  background: linear-gradient(to right, #ff0000, rgb(3, 137, 139) ,  #f06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.barti{
+    display: flex;   
+}
+.logo{
+   
+    margin: 60px;
+    height: 60px;
+}
+.pra1{
+    color: aliceblue;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: 3PX;
+    font-size: 30px;
+    margin-left: 140px;
+    text-align: center;
+}
+.hi{
+  color: aliceblue;
+  font-style: italic;
+  margin-left: 100px;
+  border: 2px solid transparent;
+  border-image: linear-gradient(45deg, rgb(3, 137, 139), #f06) 1;
+  padding: 10px;
+  display: inline-block;
+  background: linear-gradient(to right, #ff0000, rgb(3, 137, 139) ,  #f06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-shadow: 0 20px 30px rgba(203, 210, 216, 0.5);
+  
+}
+.par2{
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    margin-left: 100px;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, rgb(3, 137, 139), #f06) 1;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0 20px 30px rgba(203, 210, 216, 0.5);
+    
+    
+
+}
+.im{
+    margin: 30px;
+    height: 30px;
+    box-shadow: 0 20px 30px rgba(203, 210, 216, 0.5);
+    border-radius: 50%;
+
+}
+.to{
+     list-style-type: none;
+    padding: 50px;
+    margin-left: 100px;
+    gap: 30px; 
+    display: flex;   
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: 100;
+
+}
+.parti2{
+   margin: 100px;
+   background-color: rgba(2, 0, 36, 0.91);
+   border-radius: 30px;
+   box-shadow: 0 20px 30px rgba(203, 210, 216, 0.5);
+   
+}
+.parti3{
+    display: flex;
+   
+}
+.inf{
+   color: aliceblue;
+   font-size: 10px;
+   font-family: "Times New Roman", Times, serif;
+   margin-left: 70px;
+   font-style: italic;
+   text-align:center;
+
+}
+.img2{
+  border-radius: 30px;
+  margin-left : 100px;
+  width: 300px;
+  height: 350px;
+  transition: transform 0.5s;
+  transition: box-shadow 0.3s ease;
+
+
+}
+.img2:hover {
+  transform: rotate(20deg);
+  box-shadow: 0 10px 20px rgba(219, 219, 219, 0.4);
+
+}
+.par4{
+  font-size: 17px;
+  text-align:center;
+}
+
+.titer3{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    color: aliceblue;
+   
+  background: linear-gradient(to right, #ff0000, rgb(3, 137, 139) ,  #f06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.par3{
+    text-align: center;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: aliceblue;
+    animation: typing 1s steps(30, end) forwards, blink 0.2s infinite;
+  
+}
+.skill {
+      margin: 15px 0;
+    }
+    .skill-name {
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: aliceblue;
+      margin-left: 30px;
+    }
+    .progress {
+      
+      background: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      height: 25px;
+      margin: 30px;
+    }
+    .progress-bar {
+      height: 100%;
+      text-align: center;
+      color: white;
+      line-height: 30px;
+      font-size: 14px;
+    }
+    .html {width: 100%; background: #e34c26;}
+    .css {width: 100%; background: #264de4;}
+    .js {width: 80%; background: #f0db4f; color: #000;}
+    .python {width: 70%; background: #306998;}
+.par5{
+  font-size: 15px;
+  text-align:center;
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+
+}
